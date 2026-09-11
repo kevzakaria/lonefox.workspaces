@@ -19,23 +19,22 @@ exactly what is running on each workspace.
 
 ## Install
 
-Install from the Omarchy plugin marketplace, or manually:
-
 ```bash
-omarchy plugin install lonefox.workspaces
+omarchy plugin add https://github.com/L0nE-F0x/lonefox.workspaces.git --enable
 ```
 
-Then add the widget to your bar (replace the built-in workspaces widget if you
-use one):
+Then place it on the bar. Replace the built-in workspaces widget if you use one:
 
 ```bash
+omarchy bar put lonefox.workspaces --section left
+# or, if it is already on the bar:
 omarchy bar move lonefox.workspaces --section left
 ```
 
 ## Remove
 
 ```bash
-omarchy plugin remove lonefox.workspaces
+omarchy plugin remove lonefox.workspaces --yes
 ```
 
 ## License
