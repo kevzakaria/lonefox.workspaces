@@ -1,5 +1,7 @@
 # Workspace Hover Cards
 
+![Workspace hover card over the Omarchy bar](preview.png)
+
 Omarchy bar widget: workspace number indicators with a rich hover card that shows
 exactly what is running on each workspace.
 
